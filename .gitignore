@@ -26,3 +26,6 @@ dist-ssr
 
 #admin password
 .env
+
+#Fire base
+firebaseConfig.js
