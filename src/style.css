@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/* -------------Color---------------- */
+
+.grad-main {
+  background-color: #f1ece0;
+  background-image: url("../src/img/bg.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+}
+
+.shippori {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shippori-bold {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.clr-1 {
+  color: #4c4637;
+}
+
+/* -------------Header---------------- */
+.shop-title {
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+header {
+  background-image: linear-gradient(
+    to top,
+    #f1ece0,
+    #ebeede,
+    #e2f0df,
+    #d8f2e4,
+    #cdf4ed
+  );
+}
+
+.nav :hover {
+  background-color: #d8f2e4;
+}
+
+/* ---------------Footer--------------- */
+.footer-bg {
+  background-image: linear-gradient(
+    to top,
+    #cdf4ed,
+    #d8f2e4,
+    #e2f0df,
+    #ebeede,
+    #f1ece0
+  );
+}
+
+/* ---------------HomeMenu--------------- */
+
+.top-card {
+  border: none;
+}
+
+.top-grad {
+  position: relative;
+  color: #4c4637;
+}
+
+.top-grad::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+.top-text {
+color: white;
+}
+
+
+.grad {
+  background-image: linear-gradient(
+    to top,
+    #f1ece0,
+    #f3efe4,
+    #f4f2e7,
+    #f6f5eb,
+    #f8f8ef
+  );
+}
+
+.menu-bg {
+  background-color: #b7aa87;
+}
+
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+/* -----------HomeBusinessday Calendar-------------- */
+
+.fc-daygrid-day-number {
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+}
+
+.fc-col-header-cell-cushion {
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+}
+
