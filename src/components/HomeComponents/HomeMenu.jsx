@@ -85,10 +85,10 @@ const HomeMenu = () => {
   return (
     <>
       <div className="mx-auto shippori">
-        <h1 className="text-center shippori-bold fs-1">Menu</h1>
+        <h1 className="text-center shippori-bold fs-1 mt-5">Menu</h1>
 
         {/* Drink Menu */}
-        <h2 className="text-center mt-5 mb-0 fs-2 clr-1 menu-h2 shippori">
+        <h2 className="text-center mt-3 mb-0 fs-2 clr-1 menu-h2 shippori">
           Drink Menu
         </h2>
         <Carousel>
