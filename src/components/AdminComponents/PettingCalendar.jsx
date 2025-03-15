@@ -63,7 +63,7 @@ const PettingCalendar = ({ onDateSelect }) => {
   }
 
   return (
-    <div className="w-75 mx-auto mt-5 fs-5">
+    <div className="w-75 mx-auto mt-5 fs-5 container">
       <div className="text-center mb-5">
         <h2>予約フォーム</h2>
         <p className="fs-5">カレンダーから日付を選択してください</p>
@@ -73,13 +73,13 @@ const PettingCalendar = ({ onDateSelect }) => {
 
       </div>
 
-      <div className="d-flex align-items-center mb-3 ">
-        <span className="me-auto">
+      <div className="d-flex align-items-center mb-3">
+        <span className="me-auto fs-6 flex-fill">
           {currentYear}年 {currentMonth}月
         </span>
-        <div className="ms-auto">
-          <button onClick={() => changeMonth(-1)}>← 前の月</button>
-          <button onClick={() => changeMonth(1)}>次の月 →</button>
+        <div className="ms-auto flex-fill">
+          <button onClick={() => changeMonth(-1)}>前の月</button>
+          <button onClick={() => changeMonth(1)}>次の月</button>
         </div>
       </div>
 
